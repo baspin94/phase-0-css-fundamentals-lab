@@ -3,3 +3,46 @@ body {
   height: 100%;
   margin: 0;
 }
+/* First, let's update the header. */
+header {
+  text-align: center;
+}
+
+/* Next, let's get that image centered. */
+figure {
+  text-align: center;
+}
+
+/* Center the navigation bar links and change the background color. */
+nav a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background: gold;
+}
+
+/* Fix the image caption */
+figcaption {
+  font-size: 0.75em;
+  text-align: center;
+}
+
+/* Update the text block */
+#featured-property p {
+  margin: auto;
+  width: 800px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Add some extra padding between the text block and the details section. */
+#featured-property {
+  padding-bottom: 30px;
+}
+
+/* Make 'Details' section horizontal and add finishing touches. */
+#details div {
+  float: left;
+  width:25%;
+  background: red;
+  text-align: center;
+}
